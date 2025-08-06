@@ -320,7 +320,7 @@ ul, ol {
 
 .svg-manage {
     display: block;
-    fill: var(#f4f4fd);
+    fill: var(--cloud);
 
 }
 
