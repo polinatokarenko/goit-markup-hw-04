@@ -132,7 +132,6 @@ ul, ol {
     top: 68px;
     background-color: #404BBF;
     border-radius: 2px;
-    width: 48px;
     height: 4px;
 }
 
@@ -321,7 +320,7 @@ ul, ol {
 
 .svg-manage {
     display: block;
-    fill: var(#f4f4fd);
+    fill: var(--cloud);
 
 }
 
