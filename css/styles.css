@@ -304,16 +304,10 @@ ul, ol {
 
 }
 
-.icon-pack-team svg {
+.svg-team-li {
+    display: block;
     width: 16px;
-    height: 16px;
-    padding: 12px;
-    background-color: #4d5ae5;
 }
-
-
-
-
 
 
 .team-card {
