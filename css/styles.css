@@ -1,4 +1,4 @@
-/* colors
+:root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
     --navy-blue: #2e2f42;
@@ -11,7 +11,7 @@
     --grey: rgba(46, 47, 66, 0.7);
     --white: #fff;
     --dairy: #fcfcfc;
-*/
+}
 
 /*base*/
 body {
