@@ -110,7 +110,6 @@ ul, ol {
     font-weight: 500;
     color: #2e2f42;
     padding: 24px 0;
-    width: calc((100% - 80px / 3));
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -168,6 +167,7 @@ ul, ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 .slogan {
     font-weight: 700;
@@ -347,6 +347,7 @@ ul, ol {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 
   /*portfolio section*/
@@ -414,6 +415,10 @@ ul, ol {
     color: #434455;
 }
 
+.type-of-examples:hover {
+    fill: var(#F4F4FD)
+}
+
 .portfolio-content {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
@@ -460,10 +465,6 @@ ul, ol {
 .container-footer {
     display: flex;
     align-items: baseline;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-    gap: 120px;
 }
 
 .logo-footer-container {
@@ -506,8 +507,4 @@ ul, ol {
 
 .svg-footer {
     fill: #f4f4fd;
-}
-
-.type-of-examples:hover {
-    fill: var(#F4F4FD)
 }
